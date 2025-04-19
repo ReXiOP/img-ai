@@ -1,12 +1,137 @@
-# React + Vite
+```markdown
+# 🖼️ Freepik AI Image Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Generate high-quality AI images using the Freepik API. This full-stack web application lets users input prompts, apply styles, and get visually stunning AI-generated images. Built with a modern React + Tailwind frontend and a Node.js + Express backend.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Click Here to Try It Out](https://your-live-link.com)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```
+/client       --> React Frontend (Vite + Tailwind CSS)
+/server       --> Node.js Backend (Express)
+/              --> Root folder with README, .env, etc.
+```
+
+---
+
+## ✨ Features
+
+- 🎨 Prompt-based image generation
+- 🧠 Multiple AI art styles (cartoon, digital art, realistic, etc.)
+- 🧼 NSFW image filtering
+- ⚡ Skeleton loading animation
+- 📥 Downloadable images
+- 🚀 Fast and responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/) for components
+- [Axios](https://axios-http.com/) for API requests
+
+### Backend
+- [Node.js](https://nodejs.org/)
+- [Express](https://expressjs.com/)
+- [Dotenv](https://www.npmjs.com/package/dotenv) for environment variables
+- [Cors](https://www.npmjs.com/package/cors)
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the `/server` folder with the following:
+
+```
+FREEPIK_API_KEY=your_freepik_api_key_here
+PORT=5000
+```
+
+---
+
+## 📦 Installation & Setup
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/freepik-ai-generator.git
+cd freepik-ai-generator
+```
+
+### 2. Setup Backend
+```bash
+cd server
+npm install
+npm start
+```
+
+### 3. Setup Frontend
+```bash
+cd client
+npm install
+npm run dev
+```
+
+> Make sure the backend server is running before using the frontend.
+
+---
+
+## 🌍 Deployment
+
+### Frontend (Vite)
+You can deploy the frontend on:
+- [Vercel](https://vercel.com/)
+- [Netlify](https://netlify.com/)
+- [Firebase Hosting](https://firebase.google.com/)
+
+> Build with:
+```bash
+npm run build
+```
+
+### Backend (Node.js)
+You can host the backend for free using:
+- [Render](https://render.com/)
+- [Railway](https://railway.app/)
+- [Heroku](https://heroku.com/)
+
+---
+
+## 🖼️ Sample Styles (Optional)
+
+- `realistic`
+- `digital-art`
+- `anime`
+- `cartoon`
+- `isometric`
+- `abstract`
+
+---
+
+## 🙌 Contributing
+
+Contributions are welcome! Please fork the repo and submit a pull request.
+
+---
+
+## 📃 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 📧 Contact
+
+Developed by **Muhammad Sajid**  
+📩 [Visit My Portfolio](https://sajid09.netlify.app/)  
+🔗 [LinkedIn](https://linkedin.com) | [GitHub](https://github.com/ReXiOP)
+
+```
