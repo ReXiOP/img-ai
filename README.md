@@ -1,4 +1,3 @@
-```markdown
 # 🖼️ Freepik AI Image Generator
 
 Generate high-quality AI images using the Freepik API. This full-stack web application lets users input prompts, apply styles, and get visually stunning AI-generated images. Built with a modern React + Tailwind frontend and a Node.js + Express backend.
@@ -23,9 +22,9 @@ Generate high-quality AI images using the Freepik API. This full-stack web appli
 
 - 🎨 Prompt-based image generation
 - 🧠 Multiple AI art styles (cartoon, digital art, realistic, etc.)
-- 🧼 NSFW image filtering
+- 🏜️ NSFW image filtering
 - ⚡ Skeleton loading animation
-- 📥 Downloadable images
+- 📅 Downloadable images
 - 🚀 Fast and responsive UI
 
 ---
@@ -122,7 +121,7 @@ Contributions are welcome! Please fork the repo and submit a pull request.
 
 ---
 
-## 📃 License
+## 📓 License
 
 This project is licensed under the [MIT License](LICENSE).
 
@@ -132,6 +131,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 Developed by **Muhammad Sajid**  
 📩 [Visit My Portfolio](https://sajid09.netlify.app/)  
-🔗 [LinkedIn](https://linkedin.com) | [GitHub](https://github.com/ReXiOP)
+🔗 [LinkedIn](https://linkedin.com) | [GitHub](https://github.com/sajid09)
 
-```
